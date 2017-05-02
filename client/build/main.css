@@ -1,0 +1,18 @@
+body{
+  font-family: Helvetica;
+}
+
+h1{
+  text-align: center;
+}
+
+.song-info{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+}
+
+.song-info p{
+  margin-left: 10px;
+}
