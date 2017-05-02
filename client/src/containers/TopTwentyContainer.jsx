@@ -1,4 +1,5 @@
 import React from 'react'
+import TopTwentyList from '../components/TopTwentyList'
 
 class TopTwentyContainer extends React.Component{
 
@@ -26,8 +27,7 @@ class TopTwentyContainer extends React.Component{
   render(){
 
     return(
-      // <TopTwentyList />
-      <h1>test</h1>
+      <TopTwentyList songs={this.state.songs}/>
     )
   }
 }
